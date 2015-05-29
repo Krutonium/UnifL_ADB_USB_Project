@@ -1,6 +1,11 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
 
+v1.0.3
+* Added the following devices:
+- iOcean X7 Elite
+- Lenovo k910 SS
+
 v1.0.2
 * Added the following devices:
 - HTC One X

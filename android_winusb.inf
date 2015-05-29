@@ -85,6 +85,18 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0DFB&REV_0232&MI_01
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0DFB&MI_01
 
+;iOcean X7 Elite
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C03&REV_0216&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C03&MI_01
+
+%SingleAdbInterface%        = USB_Install, USB\VID_17EF&PID_7713&REV_0232&MI_00
+%CompositeAdbInterface%     = USB_Install, USB\VID_17EF&PID_7713&MI_00
+
+;;leshcat addon
+;;Advent Vega Tegra Note 7 (TegraNote-P1640)
+%SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_CF00&REV_0232&MI_00
+%CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_CF00&MI_00
+
 ;End Modded------------------------------------------------------------------------------
 
 ;Google Nexus One
@@ -115,11 +127,9 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE6&MI_01
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE7
 
-
 ;Google Glass
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_9001
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_9001&MI_01
-
 
 [Google.NTamd64]
 
@@ -178,6 +188,18 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0DFB&REV_0232&MI_01
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0DFB&MI_01
 
+;iOcean X7 Elite
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C03&REV_0216&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C03&MI_01
+
+%SingleAdbInterface%        = USB_Install, USB\VID_17EF&PID_7713&REV_0232&MI_00
+%CompositeAdbInterface%     = USB_Install, USB\VID_17EF&PID_7713&MI_00
+
+;;leshcat addon
+;;Advent Vega Tegra Note 7 (TegraNote-P1640)
+%SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_CF00&REV_0232&MI_00
+%CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_CF00&MI_00
+
 ;End Modded------------------------------------------------------------------------------
 
 ;Google Nexus One
@@ -211,7 +233,6 @@ HKR,,Icon,,-1
 ;Google Glass
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_9001
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_9001&MI_01
-
 
 [USB_Install]
 Include = winusb.inf

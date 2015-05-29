@@ -14,7 +14,7 @@
      customize the text that appears on the DPInst wizard pages. -->
 
       <dpinstTitle>Welcome to Android adb-USB UnifL Installer!</dpinstTitle>
-      <welcomeTitle>Android adb-USB UnifL Driver v1.02</welcomeTitle> 
+      <welcomeTitle>Android adb-USB UnifL Driver v1.03</welcomeTitle> 
 	  <welcomeIntro>
 		Welcome to Android adb-USB UnifL Driver Installer!
 	  </welcomeIntro>
