@@ -1,0 +1,89 @@
+END USER LICENSE AGREEMENT | TERMS OF USE (the "TERMS")
+
+ACCEPTANCE OF TERMS
+
+Services (including products, software and so on) provided at leshcatlabs.net are "as is" with no express or implied warranty for accuracy or accessibility.
+
+leshcatlabs.net ("leshcatlabs") has done its utmost to ensure that the material and calculations displayed on leshcatlabs.net are accurate. However, errors may occur. leshcatlabs.net accepts no responsibility or liability for any incorrect material.
+
+Use this site at your own risk.
+
+You understand and agree that the use of leshcatlabs.net may include advertisements and that these advertisements are necessary for leshcatlabs.net to provide its services and material (the "Service").
+
+Unless explicitly stated otherwise, any new features that augment or enhance the current Service, including the release of new leshcatlabs.net properties, are subject to the Terms.
+
+Under no circumstances will "leshcatlabs" be liable in any way for any leshcatlabs.net content, including, but not limited to, for any errors or omissions in any content, or for any loss or damage of any kind incurred as a result of the use of or reliance upon any content posted, emailed, transmitted, or otherwise made available via the Service.
+
+You agree that you must evaluate, and bear all risks associated with, the use of any leshcatlabs.net content, including any reliance on the accuracy, completeness, or usefulness of such content.
+
+You acknowledge and expressly consent to "leshcatlabs" accessing, preserving, and disclosing your account information if required to do so by law or in the good faith belief that such access, preservation or disclosure is reasonably necessary to: (a) comply with legal process; (b) enforce the Terms; (c) respond to claims that any leshcatlabs.net content violates the rights of third-parties; (d) respond to your requests for customer service; or (e) protect the rights, property, or personal safety of "leshcatlabs", its users and the public.
+
+PERMITTED USE
+
+Except as expressly permitted in the Terms, you agree not to reproduce, duplicate, copy, sell, trade, or exploit for any commercial purposes, any portion of the Service , use of the Service, or access to the Service.
+
+You further acknowledge and agree that content contained in sponsor advertisements or information presented to you through the Service or advertisers is protected by copyrights, trademarks, service marks, patents, or other proprietary rights and laws. Except as expressly authorized by "leshcatlabs" or advertisers, you agree not to modify, rent, lease, loan, sell, distribute or create derivative works based on the Service or the software, in whole or in part.
+
+This software is provided "as is" without express or implied warranty.
+
+INTERNATIONAL COMPLIANCE
+
+Recognizing the global nature of the Internet, you agree to comply with all local rules regarding online conduct and acceptable content. Specifically, you agree to comply with all applicable laws regarding the transmission of technical data exported from Canada or the country in which you reside.
+
+MODIFICATIONS TO SERVICE
+
+"leshcatlabs" reserves the right at any time to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with or without notice. You agree that "leshcatlabs" will not be liable to you or to any third party for any modification, suspension or discontinuance of the Service.
+
+DEALINGS WITH ADVERTISERS
+
+Your correspondence or business dealings with, or participation in promotions of, advertisers found on or through the Service, including payment and delivery of related goods or services, and any other terms, WARRANTIES, REPRESENTATIONS, OR CONDITIONS associated with such dealings, are solely between you and such advertiser. You agree that "leshcatlabs" is not responsible or liable for any loss or damage of any sort incurred as a result of such dealings or as a result of the presence of such advertisers on the Service.
+
+LINKS
+
+The Service may provide, or third parties may provide, links to other World Wide Web sites or resources. Because "leshcatlabs" has no control over such sites and resources, you acknowledge and agree that "leshcatlabs" is not responsible for the availability of such external sites or resources, and does not endorse and is not responsible or liable for any content, advertising, products, or other materials on or available from such sites or resources. You further acknowledge and agree that "leshcatlabs" is not responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such site or resource.
+
+DISCLAIMER OF WARRANTIES, REPRESENTATIONS, AND CONDITIONS
+
+YOU EXPRESSLY UNDERSTAND AND AGREE THAT:
+
+(a)
+	
+
+YOUR USE OF THE SERVICE IS AT YOUR SOLE RISK. THE SERVICE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. "leshcatlabs" EXPRESSLY DISCLAIMS ALL WARRANTIES, REPRESENTATIONS AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES, REPRESENTATIONS AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+(b)
+	
+
+"leshcatlabs" MAKES NO WARRANTY THAT (i) THE SERVICE WILL MEET YOUR REQUIREMENTS, (ii) THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE, (iii) THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE SERVICE WILL BE ACCURATE OR RELIABLE, (iv) THE QUALITY OF ANY PRODUCTS, SERVICES, INFORMATION, OR OTHER MATERIAL PURCHASED OR OBTAINED BY YOU THROUGH THE SERVICE WILL MEET YOUR EXPECTATIONS, AND (v) ANY ERRORS IN THE SOFTWARE WILL BE CORRECTED.
+
+(c)
+	
+
+ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SERVICE IS DONE AT YOUR OWN DISCRETION AND RISK AND THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY SUCH MATERIAL.
+
+(d)
+	
+
+NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM "leshcatlabs" OR THROUGH OR FROM THE SERVICE SHALL CREATE ANY WARRANTY NOT EXPRESSLY STATED IN THE TERMS.
+
+LIMITATION OF LIABILITY
+
+YOU EXPRESSLY UNDERSTAND AND AGREE THAT "leshcatlabs" SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES, INCLUDING BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA, OR OTHER INTANGIBLE LOSSES (EVEN IF "leshcatlabs" HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES), RESULTING FROM: (i) THE USE OR THE INABILITY TO USE THE SERVICE; (ii) THE COST OF PROCUREMENT OF SUBSTITUTE GOODS AND SERVICES RESULTING FROM ANY GOODS, DATA, INFORMATION, OR SERVICES PURCHASED OR OBTAINED OR MESSAGES RECEIVED OR TRANSACTIONS ENTERED INTO THROUGH OR FROM THE SERVICE; (iii) UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA; (iv) STATEMENTS OR CONDUCT OF ANY THIRD PARTY ON THE SERVICE; OR (v) ANY OTHER MATTER RELATING TO THE SERVICE.
+
+EXCLUSIONS AND LIMITATIONS
+
+SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES, REPRESENTATIONS AND CONDITIONS OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES. ACCORDINGLY, SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
+
+GENERAL INFORMATION
+
+Entire Agreement. The Terms constitute the entire agreement between you and "leshcatlabs" and govern your use of the Service, superseding any prior agreements, oral or written, between you and "leshcatlabs" with respect to the Service.
+
+Choice of Law and Forum. The Terms and the relationship between you and "leshcatlabs" shall be governed by the laws of the province of British Columbia and Canada without regard to its conflict of law provisions. You and "leshcatlabs" agree to submit to the personal and exclusive jurisdiction of the courts located within the province of British Columbia, Canada.
+
+Waiver and Severability of Terms. The failure of "leshcatlabs" to exercise or enforce any right or provision of the Terms shall not constitute a waiver of such right or provision. If any provision of the Terms is found by a court of competent jurisdiction to be invalid, the parties nevertheless agree that the court should endeavour to give effect to the parties' intentions as reflected in the provision, and the other provisions of the Terms remain in full force and effect.
+
+Statute of Limitations. You agree that regardless of any statute or law to the contrary, any claim or cause of action arising out of or related to use of the Service or related to the Terms must be filed within one (1) year after such claim or cause of action arose or be forever barred.
+
+Further Assurances. You agree to use reasonable efforts to do, make, execute, deliver, or cause to be done, made, executed, or delivered, all such further acts, documents, and things as "leshcatlabs" may reasonably require from time to time for the purpose of giving effect to these Terms, including regularly reviewing the Terms and updating your registration information.
+
+The section titles in the Terms are for convenience only and have no legal or contractual effect. 
