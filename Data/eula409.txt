@@ -1,6 +1,14 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
 
+v.1.1.2
+* Added Support for:
+- Various LG devices
+- Most Rockchip SoC based devices
+- Common MediaTek SoC based devices
+- NVIDIA Shield devices
+- XiaoMi devices
+
 v.1.1.1
 * Added Support for:
 - OnePlus One missing DEVID
