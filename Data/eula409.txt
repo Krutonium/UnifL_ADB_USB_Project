@@ -1,5 +1,10 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
+v.1.0.8
+* Added Support for:
+- Xiaomi Redmi Note 4G 
+- One Plus One 64GB
+- Kiano Pad 7 
 
 v.1.0.7
 * Added Support for:
