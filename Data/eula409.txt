@@ -1,7 +1,7 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
 
-v.1.0.6
+v.1.0.6.1
 * Added Support for:
 - Sony Experia Z1 Compact
 

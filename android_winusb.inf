@@ -11,7 +11,7 @@ Class               = AndroidUsbDeviceClass
 ClassGuid           = {3F966BD9-FA04-4ec5-991C-D326973B5128}
 ;Modded
 Provider            = leshcatlabs.net
-DriverVer           = 10/11/2014,10.0.0000.00000
+DriverVer           = 10/29/2014,10.0.0000.00000
 ;End Mod, Date was Changed to reflect Modding Date
 CatalogFile.NTx86   = androidwinusb86.cat
 CatalogFile.NTamd64 = androidwinusba64.cat
@@ -567,6 +567,10 @@ HKR,,Icon,,-1
 ;Lenovo p780 - 2
 %CompositeAdbInterface%		= USB_Install, USB\Vid_17ef&Pid_7718&Rev_0216&MI_02
 %SingleAdbInterface%		= USB_Install, USB\Vid_17ef&Pid_7718&MI_02
+
+;Sony Xperia X1 Compact
+%SingleAdbInterface%		= USB_Install, USB\VID_0FCE&PID_51A7&REV_0232&MI_01
+%CompositeAdbInterface%		= USB_Install, USB\VID_0FCE&PID_51A7&MI_01
 
 ;End Modded------------------------------------------------------------------------------
 
@@ -1142,6 +1146,10 @@ HKR,,Icon,,-1
 ;Lenovo p780 - 2
 %CompositeAdbInterface%		= USB_Install, USB\Vid_17ef&Pid_7718&Rev_0216&MI_02
 %SingleAdbInterface%		= USB_Install, USB\Vid_17ef&Pid_7718&MI_02
+
+;Sony Xperia X1 Compact
+%SingleAdbInterface%		= USB_Install, USB\VID_0FCE&PID_51A7&REV_0232&MI_01
+%CompositeAdbInterface%		= USB_Install, USB\VID_0FCE&PID_51A7&MI_01
 
 ;End Modded------------------------------------------------------------------------------
 
