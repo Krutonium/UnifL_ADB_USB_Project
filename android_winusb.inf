@@ -11,7 +11,7 @@ Class               = AndroidUsbDeviceClass
 ClassGuid           = {3F966BD9-FA04-4ec5-991C-D326973B5128}
 ;Modded
 Provider            = leshcatlabs.net
-DriverVer           = 10/29/2014,10.0.0000.00000
+DriverVer           = 11/27/2014,10.0.0000.00000
 ;End Mod, Date was Changed to reflect Modding Date
 CatalogFile.NTx86   = androidwinusb86.cat
 CatalogFile.NTamd64 = androidwinusba64.cat
@@ -31,6 +31,10 @@ HKR,,Icon,,-1
 [Google.NTx86]
 
 ;Start Modded-------------------------------------------------------------------------------
+
+;TOLINO TAB8
+%CompositeAdbInterface%	    = USB_Install, USB\VID_1E68&PID_0092&REV_????&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0092&MI_01
 
 ;PROSCAN PLT7044K-B
 %SingleAdbInterface%        = USB_Install, USB\VID_2207&PID_0010&REV_0222&MI_01
@@ -572,6 +576,98 @@ HKR,,Icon,,-1
 %SingleAdbInterface%		= USB_Install, USB\VID_0FCE&PID_51A7&REV_0232&MI_01
 %CompositeAdbInterface%		= USB_Install, USB\VID_0FCE&PID_51A7&MI_01
 
+; TrekStor - German?
+
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_005A
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_005A&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_005D
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_005D&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0060
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0060&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0061
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0061&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0062
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0062&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0063
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0063&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0064
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0064&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0065
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0065&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_2207&PID_0010
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0010&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0070
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0070&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0071
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0071&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0072
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0072&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0074
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0074&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0075
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0075&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0076
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0076&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0079
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0079&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_007B
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_007B&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_007C
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_007C&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_007F
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_007F&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0080
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0080&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0083
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0083&MI_01
+
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0091
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0091&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0092
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0092&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0093
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0093&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0094
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0094&MI_01
+
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1001
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1001&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1002
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1002&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1003
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1003&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1004
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1004&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1005
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1005&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1006
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1006&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1007
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1007&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1008
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1008&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1009
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1009&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1010
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1010&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1013
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1013&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1014
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1014&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1017
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1017&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1018
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1018&MI_01
+
+%CompositeAdbInterface%     = USB_Install, USB\VID_8087&PID_0A5F&Rev_ffff&MI_00
+%CompositeAdbInterface%     = USB_Install, USB\VID_8087&PID_0A5F&MI_00
+
+%CompositeAdbInterface%     = USB_Install, USB\VID_8087&PID_09EF&Rev_????
+%CompositeAdbInterface%     = USB_Install, USB\VID_8087&PID_09EF
+
+%CompositeAdbInterface%     = USB_Install, USB\VID_8087&PID_09EF&Rev_????&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_8087&PID_09EF&MI_01
+
 ;End Modded------------------------------------------------------------------------------
 
 ;Google Nexus One
@@ -609,6 +705,10 @@ HKR,,Icon,,-1
 [Google.NTamd64]
 
 ;Start Modded-------------------------------------------------------------------------------
+
+;TOLINO TAB8
+%CompositeAdbInterface%	    = USB_Install, USB\VID_1E68&PID_0092&REV_????&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0092&MI_01
 
 ;PROSCAN PLT7044K-B
 %SingleAdbInterface%        = USB_Install, USB\VID_2207&PID_0010&REV_0222&MI_01
@@ -1150,6 +1250,98 @@ HKR,,Icon,,-1
 ;Sony Xperia X1 Compact
 %SingleAdbInterface%		= USB_Install, USB\VID_0FCE&PID_51A7&REV_0232&MI_01
 %CompositeAdbInterface%		= USB_Install, USB\VID_0FCE&PID_51A7&MI_01
+
+;TrekStor
+
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_005A
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_005A&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_005D
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_005D&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0060
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0060&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0061
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0061&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0062
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0062&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0063
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0063&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0064
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0064&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0065
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0065&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_2207&PID_0010
+%CompositeAdbInterface%     = USB_Install, USB\VID_2207&PID_0010&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0070
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0070&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0071
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0071&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0072
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0072&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0074
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0074&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0075
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0075&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0076
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0076&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0079
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0079&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_007B
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_007B&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_007C
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_007C&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_007F
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_007F&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0080
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0080&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0083
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0083&MI_01
+
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0091
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0091&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0092
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0092&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0093
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0093&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_0094
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_0094&MI_01
+
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1001
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1001&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1002
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1002&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1003
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1003&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1004
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1004&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1005
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1005&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1006
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1006&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1007
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1007&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1008
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1008&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1009
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1009&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1010
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1010&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1013
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1013&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1014
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1014&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1017
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1017&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1E68&PID_1018
+%CompositeAdbInterface%     = USB_Install, USB\VID_1E68&PID_1018&MI_01
+
+%CompositeAdbInterface%     = USB_Install, USB\VID_8087&PID_0A5F&Rev_ffff&MI_00
+%CompositeAdbInterface%     = USB_Install, USB\VID_8087&PID_0A5F&MI_00
+
+%CompositeAdbInterface%     = USB_Install, USB\VID_8087&PID_09EF&Rev_????
+%CompositeAdbInterface%     = USB_Install, USB\VID_8087&PID_09EF
+
+%CompositeAdbInterface%     = USB_Install, USB\VID_8087&PID_09EF&Rev_????&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_8087&PID_09EF&MI_01
 
 ;End Modded------------------------------------------------------------------------------
 

@@ -1,7 +1,13 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
 
-v.1.0.6.1
+v.1.0.7
+* Added Support for:
+- Tolino Tab 8
+- Every Device Supported in Trekstor (Manufacturer of Tolino Devices) official Driver
+- (Their driver last updated 2012)
+
+v.1.0.6
 * Added Support for:
 - Sony Experia Z1 Compact
 
