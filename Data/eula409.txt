@@ -1,5 +1,9 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
+v.1.0.9
+* Added Support for:
+- Moto (Motorolla) Android Devices
+
 v.1.0.8
 * Added Support for:
 - Xiaomi Redmi Note 4G 
