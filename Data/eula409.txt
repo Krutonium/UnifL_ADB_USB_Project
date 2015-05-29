@@ -1,10 +1,16 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
 
+v1.0.4
+* Added support for:
+- Numerous Samsung Devices
+- Massive list of HTC Devices
+
 v1.0.3
 * Added the following devices:
 - iOcean X7 Elite
 - Lenovo k910 SS
+- Advent Vega Tegra Note 7 (TegraNote-P1640)
 
 v1.0.2
 * Added the following devices:

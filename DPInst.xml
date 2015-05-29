@@ -14,17 +14,13 @@
      customize the text that appears on the DPInst wizard pages. -->
 
       <dpinstTitle>Welcome to Android adb-USB UnifL Installer!</dpinstTitle>
-      <welcomeTitle>Android adb-USB UnifL Driver v1.03</welcomeTitle> 
+      <welcomeTitle>Android adb-USB UnifL Driver v1.04</welcomeTitle> 
 	  <welcomeIntro>
 		Welcome to Android adb-USB UnifL Driver Installer!
 	  </welcomeIntro>
-	  <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
-      <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
-      <eulaNoButton>I do n&amp;ot accept this EULA</eulaNoButton>
       <installHeaderTitle>Installing Android USB UnifL driver, Please wait ...</installHeaderTitle>
       <finishTitle>Congratulations! You are finished Android USB UnifL driver installation!</finishTitle>
       <finishText>Enjoy using the Android USB UnifL driver.</finishText>
-      <eula type="txt" path="Data\Eula409.txt"/>
 </language>
 
 <!-- The following three elements customize, but do not localize,
