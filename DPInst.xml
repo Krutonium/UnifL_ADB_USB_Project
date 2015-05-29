@@ -14,9 +14,10 @@
      customize the text that appears on the DPInst wizard pages. -->
 
       <dpinstTitle>Welcome to Android adb-USB UnifL Installer!</dpinstTitle>
-      <welcomeTitle>Android adb-USB UnifL Driver v1.10</welcomeTitle> 
+      <welcomeTitle>Android adb-USB UnifL Driver v1.11</welcomeTitle> 
 	  <welcomeIntro>
-		Welcome to Android adb-USB UnifL Driver Installer!
+-Supported devices:
+-Sony Phones/Tablets -Sony-Ericsson -Samsung -Dell Tablets/Phones -Google -Huawei Phones/Tablets -Nook/Nook Color -Moto G/X -Proscan -Lenovo -THL -HTC -iOcean -Advent -Tolino -Motorolla -Xiaomi -One -Kiano.
 	  </welcomeIntro>
       <installHeaderTitle>Installing Android USB UnifL driver, Please wait ...</installHeaderTitle>
       <finishTitle>Congratulations! You are finished Android USB UnifL driver installation!</finishTitle>

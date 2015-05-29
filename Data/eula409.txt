@@ -1,6 +1,14 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
 
+v.1.1.1
+* Added Support for:
+- OnePlus One missing DEVID
+- Intel SoCs based devices
+- Massive Sony & Sony Ericsson devices list
+- Many Samsung devices
+- Thanks Tito for pointing respective driver packs
+
 v.1.1.0
 * Added Support for:
 - Yureka phones as well as YunOS/Coolpad devices 
