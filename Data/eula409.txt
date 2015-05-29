@@ -1,6 +1,11 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
 
+v1.0.5
+* Fixed UCT "Division by Zero" on Windows XP
+* Added support for:
+- Lenovo p780 - 2
+
 v1.0.4
 * Added support for:
 - Numerous Samsung Devices

@@ -11,7 +11,7 @@ Class               = AndroidUsbDeviceClass
 ClassGuid           = {3F966BD9-FA04-4ec5-991C-D326973B5128}
 ;Modded
 Provider            = leshcatlabs.net
-DriverVer           = 10/09/2014,10.0.0000.00000
+DriverVer           = 10/11/2014,10.0.0000.00000
 ;End Mod, Date was Changed to reflect Modding Date
 CatalogFile.NTx86   = androidwinusb86.cat
 CatalogFile.NTamd64 = androidwinusba64.cat
@@ -49,11 +49,11 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_413C&PID_1A01&REV_0231&MI_01
 %CompositeAdbInterface%     = USB_Install, USB\VID_413C&PID_1A01&MI_01
 
-; Moto G
+;Moto G
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_2E84&MI_01
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_2E80
 
-; Moto X
+;Moto X
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_2E65&MI_01
 
 ;SONY Sony Tablet P
@@ -92,8 +92,8 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_17EF&PID_7713&REV_0232&MI_00
 %CompositeAdbInterface%     = USB_Install, USB\VID_17EF&PID_7713&MI_00
 
-;;leshcat addon
-;;Advent Vega Tegra Note 7 (TegraNote-P1640)
+;leshcat addon
+;Advent Vega Tegra Note 7 (TegraNote-P1640)
 %SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_CF00&REV_0232&MI_00
 %CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_CF00&MI_00
 
@@ -563,6 +563,11 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0E72&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0E76&MI_01
 
+;leshcat addon
+;Lenovo p780 - 2
+%CompositeAdbInterface%		= USB_Install, USB\Vid_17ef&Pid_7718&Rev_0216&MI_02
+%SingleAdbInterface%		= USB_Install, USB\Vid_17ef&Pid_7718&MI_02
+
 ;End Modded------------------------------------------------------------------------------
 
 ;Google Nexus One
@@ -618,11 +623,11 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_413C&PID_1A01&REV_0231&MI_01
 %CompositeAdbInterface%     = USB_Install, USB\VID_413C&PID_1A01&MI_01
 
-; Moto G
+;Moto G
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_2E84&MI_01
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_2E80
 
-; Moto X
+;Moto X
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_2E65&MI_01
 
 ;SONY Sony Tablet P
@@ -661,8 +666,8 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_17EF&PID_7713&REV_0232&MI_00
 %CompositeAdbInterface%     = USB_Install, USB\VID_17EF&PID_7713&MI_00
 
-;;leshcat addon
-;;Advent Vega Tegra Note 7 (TegraNote-P1640)
+;leshcat addon
+;Advent Vega Tegra Note 7 (TegraNote-P1640)
 %SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_CF00&REV_0232&MI_00
 %CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_CF00&MI_00
 
@@ -1132,6 +1137,11 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0E6E&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0E72&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0E76&MI_01
+
+;leshcat addon
+;Lenovo p780 - 2
+%CompositeAdbInterface%		= USB_Install, USB\Vid_17ef&Pid_7718&Rev_0216&MI_02
+%SingleAdbInterface%		= USB_Install, USB\Vid_17ef&Pid_7718&MI_02
 
 ;End Modded------------------------------------------------------------------------------
 
