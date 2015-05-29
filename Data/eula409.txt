@@ -1,3 +1,25 @@
+----------------------------------------------------------
+Android adb-USB UnifL Changelog:
+
+v1.0.1
+* Fixed russian OS issues.
+* Added following devices:
+- Lenovo p780
+- THL 5000
+- HTC One (HTC 801e)
+
+v1.0:
+* Initial release.
+* Supported devices:
+- Dell Tablets/Phones
+- Google Devices
+- Huawei Phones/Tablets
+- SONY Tablet P/S 
+- Nook/Nook Color
+- Moto G/X devices
+- PROSCAN PLT7044K-B
+----------------------------------------------------------
+
 END USER LICENSE AGREEMENT | TERMS OF USE (the "TERMS")
 
 ACCEPTANCE OF TERMS
@@ -87,3 +109,5 @@ Statute of Limitations. You agree that regardless of any statute or law to the c
 Further Assurances. You agree to use reasonable efforts to do, make, execute, deliver, or cause to be done, made, executed, or delivered, all such further acts, documents, and things as "leshcatlabs" may reasonably require from time to time for the purpose of giving effect to these Terms, including regularly reviewing the Terms and updating your registration information.
 
 The section titles in the Terms are for convenience only and have no legal or contractual effect. 
+
+All rights belong to its respective owners.

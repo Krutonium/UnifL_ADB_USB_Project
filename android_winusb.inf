@@ -69,6 +69,18 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_12D1&PID_1054&REV_0231&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_12D1&PID_1054&MI_01
 
+;Lenovo p780
+%CompositeAdbInterface%     = USB_Install, USB\VID_17EF&PID_7435&REV_0216&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_17EF&PID_7435&MI_01
+
+;THL 5000
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C03&REV_0216&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C03&MI_01
+
+;HTC One (801e)
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0F87&REV_0228&MI_00
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0F87&MI_00
+
 ;End Modded------------------------------------------------------------------------------
 
 ;Google Nexus One
@@ -145,6 +157,18 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_12D1&PID_1038&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_12D1&PID_1054&REV_0231&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_12D1&PID_1054&MI_01
+
+;Lenovo p780
+%CompositeAdbInterface%     = USB_Install, USB\VID_17EF&PID_7435&REV_0216&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_17EF&PID_7435&MI_01
+
+;THL 5000
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C03&REV_0216&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C03&MI_01
+
+;HTC One (801e)
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0F87&REV_0228&MI_00
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0F87&MI_00
 
 ;End Modded------------------------------------------------------------------------------
 

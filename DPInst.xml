@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" ?>
   <dpinst>
-
+<enableNotListedLanguages/>
 <!-- The following search and subDirectory elements direct
      DPInst to search all subdirectories (under the DPInst working directory) to locate driver
      packages. -->
@@ -8,19 +8,15 @@
       <subDirectory>*</subDirectory>
 </search>
 
+<language code="0x409">
 <!-- The following language element localizes its child elements
      for the English (Standard) language. The child elements
      customize the text that appears on the DPInst wizard pages. -->
-    <language code="0x0409">
-      <dpinstTitle>Welcome to Android USB UnifL Installer!</dpinstTitle>
-      <welcomeTitle>Android USB UnifL Driver v1.0</welcomeTitle> 
-	  <welcomeIntro>
-Currently supported devices:
 
-Dell Tablets/Phones		Google Devices
-Huawei Phones/Tablets	SONY Tablet P/S 
-Nook/Nook Color		Moto G/X devices
-PROSCAN PLT7044K-B
+      <dpinstTitle>Welcome to Android adb-USB UnifL Installer!</dpinstTitle>
+      <welcomeTitle>Android adb-USB UnifL Driver v1.0.1</welcomeTitle> 
+	  <welcomeIntro>
+		Welcome to Android adb-USB UnifL Driver Installer!
 	  </welcomeIntro>
 	  <eulaHeaderTitle>End User License Agreement</eulaHeaderTitle>
       <eulaYesButton>I &amp;accept this EULA</eulaYesButton>
@@ -29,7 +25,7 @@ PROSCAN PLT7044K-B
       <finishTitle>Congratulations! You are finished Android USB UnifL driver installation!</finishTitle>
       <finishText>Enjoy using the Android USB UnifL driver.</finishText>
       <eula type="txt" path="Data\Eula409.txt"/>
-    </language>
+</language>
 
 <!-- The following three elements customize, but do not localize,
      the icon and bitmaps that appear on the DPInst wizard pages. -->
