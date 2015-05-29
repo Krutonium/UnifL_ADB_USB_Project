@@ -1,6 +1,10 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
 
+v.1.0.6
+* Added Support for:
+- Sony Experia Z1 Compact
+
 v1.0.5
 * Fixed UCT "Division by Zero" on Windows XP
 * Added support for:
