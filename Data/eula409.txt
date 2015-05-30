@@ -1,6 +1,9 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
 
+v.1.13.1
+* Fixed critical bug in CompositeLdbInterface detection
+
 v.1.13
 * Added Support for:
 - Various Lenovo devices
@@ -13,7 +16,7 @@ v.1.12
 - Most Rockchip SoC based devices
 - Common MediaTek SoC based devices
 - NVIDIA Shield devices
-- XiaoMi devices
+- Xiaomi devices
 
 v.1.11
 * Added Support for:
