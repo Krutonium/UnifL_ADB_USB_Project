@@ -11,7 +11,7 @@ Class               = AndroidUsbDeviceClass
 ClassGuid           = {3F966BD9-FA04-4ec5-991C-D326973B5128}
 ;Modded
 Provider            = leshcatlabs.net
-DriverVer           = 05/30/2015,10.0.0000.00000
+DriverVer           = 06/02/2015,10.0.0000.00000
 ;End Mod, Date was Changed to reflect Modding Date
 CatalogFile.NTx86   = androidwinusb86.cat
 CatalogFile.NTamd64 = androidwinusba64.cat
@@ -29,6 +29,9 @@ HKR,,Icon,,-1
 [Google.NTx86]
 
 ;Start Modded-------------------------------------------------------------------------------
+
+;YU Yuphoria (By Tito - 06/02/2015)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_2A96&PID_300A
 
 ;OPPO (By Tito - 05/30/2015)
 %SingleAdbInterface%        = USB_Install, USB\VID_22D9&PID_2769
@@ -9073,6 +9076,9 @@ HKR,,Icon,,-1
 [Google.NTamd64]
 
 ;Start Modded-------------------------------------------------------------------------------
+
+;YU Yuphoria (By Tito - 06/02/2015)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_2A96&PID_300A
 
 ;OPPO (By Tito - 05/30/2015)
 %SingleAdbInterface%        = USB_Install, USB\VID_22D9&PID_2769
