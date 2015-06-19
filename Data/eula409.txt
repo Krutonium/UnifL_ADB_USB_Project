@@ -1,6 +1,13 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
 
+v.1.15
+* Added Support for:
+- Various Asus & Garmin-Asus devices
+- Generic Broadcom SoC based devices
+- Various Alcatel devices, which are made by TCL
+- YU Yureka adb sideload interface
+
 v.1.14
 * Added Support for:
 - YU Yuphoria
