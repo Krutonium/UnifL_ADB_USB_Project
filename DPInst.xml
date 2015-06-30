@@ -17,7 +17,7 @@
       <welcomeTitle>Android adb-USB UnifL Driver v1.15</welcomeTitle> 
 	  <welcomeIntro>
 -Supported devices:
--Advent -Asus -Broadcom SoC -Coolpad -Dell -Garmin-Asus -Google -HTC -Huawei -iOcean -Kiano -Lenovo -LG -MediaTek SoC -Motorolla -Nook/Nook Color -NVIDIA Shield -OnePlus -OPPO -Proscan -Rockchip SoC -Samsung -Sony -Sony Ericsson -TCL/Alcatel -THL -Tolino -Xiaomi -YU.
+-Advent -Amazon -Asus -Broadcom SoC -Coolpad -Dell -Garmin-Asus -Google -HTC -Huawei -Intel SoC -iOcean -Kiano -Lenovo -LG -MediaTek SoC -Motorolla -Nook/Nook Color -NVIDIA Shield -OnePlus -OPPO -Proscan -Rockchip SoC -Samsung -Sony -Sony Ericsson -TCL/Alcatel -THL -Tolino -Xiaomi -YU.
 	  </welcomeIntro>
       <installHeaderTitle>Installing Android USB UnifL driver, Please wait ...</installHeaderTitle>
       <finishTitle>Congratulations! You are finished Android USB UnifL driver installation!</finishTitle>

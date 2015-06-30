@@ -1,6 +1,11 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
 
+v.1.16
+* Added Support for:
+- Amazon devices (Kindle Fire Tablets, Fire Phone, Fire TV, Fire TV stick etc.)
+* Introduced universal adb_usb.ini support: https://github.com/apkudo/adbusbini
+
 v.1.15
 * Added Support for:
 - Various Asus & Garmin-Asus devices

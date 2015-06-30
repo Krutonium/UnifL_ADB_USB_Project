@@ -11,7 +11,7 @@ Class               = AndroidUsbDeviceClass
 ClassGuid           = {3F966BD9-FA04-4ec5-991C-D326973B5128}
 ;Modded
 Provider            = leshcatlabs.net
-DriverVer           = 06/19/2015,10.0.0000.00000
+DriverVer           = 06/30/2015,10.0.0000.00000
 ;End Mod, Date was Changed to reflect Modding Date
 CatalogFile.NTx86   = androidwinusb86.cat
 CatalogFile.NTamd64 = androidwinusba64.cat
@@ -29,6 +29,23 @@ HKR,,Icon,,-1
 [Google.NTx86]
 
 ;Start Modded-------------------------------------------------------------------------------
+
+;Amazon (By Tito - 06/30/2015)
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0006&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0008&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_000A&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0007&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_000B&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_000C&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_000D&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0800&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1949&PID_00F0
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_00F2&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_00F4&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1949&PID_0120
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0122&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0124&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0012&MI_01
 
 ;Asus (By Tito - 06/19/2015)
 %CompositeAdbInterface%     = USB_Install, USB\VID_0B05&PID_4C81&MI_01
@@ -9353,6 +9370,23 @@ HKR,,Icon,,-1
 [Google.NTamd64]
 
 ;Start Modded-------------------------------------------------------------------------------
+
+;Amazon (By Tito - 06/30/2015)
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0006&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0008&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_000A&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0007&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_000B&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_000C&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_000D&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0800&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1949&PID_00F0
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_00F2&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_00F4&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_1949&PID_0120
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0122&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0124&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0012&MI_01
 
 ;Asus (By Tito - 06/19/2015)
 %CompositeAdbInterface%     = USB_Install, USB\VID_0B05&PID_4C81&MI_01
