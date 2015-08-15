@@ -1,6 +1,11 @@
 ----------------------------------------------------------
 Android adb-USB UnifL Changelog:
 
+v.1.17
+* Added Support for:
+- GIONEE V4S, Meizu MX4, Intel Bay Trail tablets by Lenovo
+* Fixed support for YU Yuphoria
+
 v.1.16
 * Added Support for:
 - Amazon devices (Kindle Fire Tablets, Fire Phone, Fire TV, Fire TV stick etc.)

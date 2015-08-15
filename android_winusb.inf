@@ -11,7 +11,7 @@ Class               = AndroidUsbDeviceClass
 ClassGuid           = {3F966BD9-FA04-4ec5-991C-D326973B5128}
 ;Modded
 Provider            = leshcatlabs.net
-DriverVer           = 06/30/2015,10.0.0000.00000
+DriverVer           = 08/15/2015,10.0.0000.00000
 ;End Mod, Date was Changed to reflect Modding Date
 CatalogFile.NTx86   = androidwinusb86.cat
 CatalogFile.NTamd64 = androidwinusba64.cat
@@ -29,6 +29,47 @@ HKR,,Icon,,-1
 [Google.NTx86]
 
 ;Start Modded-------------------------------------------------------------------------------
+
+;GIONEE V4S (By Tito - 08/15/2015)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_271D&PID_0C01
+%CompositeAdbInterface%     = USB_Install, USB\VID_271D&PID_0C03&MI_01
+
+;Meizu MX4 (By Tito - 08/15/2015)
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A45&PID_0C02&MI_01
+
+;Qualcomm SoC (By Tito - 08/15/2015)
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_D001 ; adb sideload
+
+;YU Yuphoria - revised (By Tito - 08/15/2015)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_2A96&PID_300A
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A96&PID_3001&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A96&PID_3002&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A96&PID_3003&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A96&PID_3004&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A96&PID_3005&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A96&PID_3006&MI_01
+
+;Lenovo + Intel Baytrail (By Tito - 08/15/2015)
+;;;;;;;;;;;;;;;;;;;;;;Lenovo USB ;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+;MASS_STORAGE + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_17EF&PID_77D5&MI_01
+;MTP + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_17EF&PID_77D7&MI_01
+;MTP + MASS_STORAGE + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_17EF&PID_77D9&MI_02
+;PTP + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_17EF&PID_77DB&MI_01
+;RNDIS + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_17EF&PID_77DD&MI_02
+;BICR + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_17EF&PID_77DF&MI_01
+;RNDIS + ACM + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_8087&PID_0A64&MI_04
+
+; Intel Baytrail Android
+%CompositeAdbInterface% = USB_Install, USB\VID_8087&PID_0A65	; ADB IAFW Fastboot mode
+%CompositeAdbInterface% = USB_Install, USB\VID_8087&&PID_0A5D	; ADB only
+%CompositeAdbInterface% = USB_Install, USB\VID_8087&&PID_09EF	; ADB only
 
 ;Amazon (By Tito - 06/30/2015)
 %CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0006&MI_01
@@ -320,12 +361,6 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%  = USB_Install, USB\Vid_18d1&Pid_2d01&MI_01
 %CompositeAdbInterface%  = USB_Install, USB\Vid_18d1&Pid_2d03&MI_01
 %CompositeAdbInterface%  = USB_Install, USB\Vid_18d1&Pid_2d05&MI_01
-
-;YU Yureka (By Tito - 06/19/2015)
-%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_D001 ; adb sideload
-
-;YU Yuphoria (By Tito - 06/02/2015)
-%SingleBootLoaderInterface% = USB_Install, USB\VID_2A96&PID_300A
 
 ;OPPO (By Tito - 05/30/2015)
 %SingleAdbInterface%        = USB_Install, USB\VID_22D9&PID_2769
@@ -9371,6 +9406,47 @@ HKR,,Icon,,-1
 
 ;Start Modded-------------------------------------------------------------------------------
 
+;GIONEE V4S (By Tito - 08/15/2015)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_271D&PID_0C01
+%CompositeAdbInterface%     = USB_Install, USB\VID_271D&PID_0C03&MI_01
+
+;Meizu MX4 (By Tito - 08/15/2015)
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A45&PID_0C02&MI_01
+
+;Qualcomm SoC (By Tito - 08/15/2015)
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_D001 ; adb sideload
+
+;YU Yuphoria - revised (By Tito - 08/15/2015)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_2A96&PID_300A
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A96&PID_3001&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A96&PID_3002&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A96&PID_3003&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A96&PID_3004&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A96&PID_3005&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_2A96&PID_3006&MI_01
+
+;Lenovo + Intel Baytrail (By Tito - 08/15/2015)
+;;;;;;;;;;;;;;;;;;;;;;Lenovo USB ;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+;MASS_STORAGE + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_17EF&PID_77D5&MI_01
+;MTP + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_17EF&PID_77D7&MI_01
+;MTP + MASS_STORAGE + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_17EF&PID_77D9&MI_02
+;PTP + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_17EF&PID_77DB&MI_01
+;RNDIS + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_17EF&PID_77DD&MI_02
+;BICR + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_17EF&PID_77DF&MI_01
+;RNDIS + ACM + ADB
+%CompositeAdbInterface% = USB_Install, USB\VID_8087&PID_0A64&MI_04
+
+; Intel Baytrail Android
+%CompositeAdbInterface% = USB_Install, USB\VID_8087&PID_0A65	; ADB IAFW Fastboot mode
+%CompositeAdbInterface% = USB_Install, USB\VID_8087&&PID_0A5D	; ADB only
+%CompositeAdbInterface% = USB_Install, USB\VID_8087&&PID_09EF	; ADB only
+
 ;Amazon (By Tito - 06/30/2015)
 %CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0006&MI_01
 %CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0008&MI_01
@@ -9661,12 +9737,6 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%  = USB_Install, USB\Vid_18d1&Pid_2d01&MI_01
 %CompositeAdbInterface%  = USB_Install, USB\Vid_18d1&Pid_2d03&MI_01
 %CompositeAdbInterface%  = USB_Install, USB\Vid_18d1&Pid_2d05&MI_01
-
-;YU Yureka (By Tito - 06/19/2015)
-%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_D001 ; adb sideload
-
-;YU Yuphoria (By Tito - 06/02/2015)
-%SingleBootLoaderInterface% = USB_Install, USB\VID_2A96&PID_300A
 
 ;OPPO (By Tito - 05/30/2015)
 %SingleAdbInterface%        = USB_Install, USB\VID_22D9&PID_2769
